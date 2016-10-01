@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+    body {
+      background-image: url("http://decalpitstop.com/wallpaper/1280x800/white%20carbon%20fiber.jpg");
+      background-color: #93B874;
+    }
+  </style>
     <title>GET HIP Week One Challenge</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>GET HIP Week One Assignment</h1>
+    <h1 style = "color: blue;">GET HIP Week One Assignment</h1>
     <div class="well row">
-      <h2>Problem 1:</h2>
+      <h2 style = "color: teal;">Problem 1:</h2>
       <p>For your computer science class at school, you take 6 tests. Your teacher takes the average of your top 5 test scores, and that is your test score for the semester. Since your teacher has so many students, it takes a while for them to enter your test grades. You and your friends want to know what your test grade is before your report card comes out. Your job is to implement the javascript method "problemOne()" for you and your friends to use to find your test grade.</p>
       <p>Enter each of your 6 test grades in the number inputs below, and click "Find Your Test Grade" to run problemOne() and print your test grade to the console.</p>
       <form>
@@ -21,12 +27,15 @@
         </div>
         <button onclick="problemOne(); return false;" class="btn btn-default">Find Your Test Grade</button>
       </form>
-      <h3>Bonus:</h3>
-      <p>Use only one text input, and enable users to input as many test scores as they want, separated by commas. Take the average of all the test scores except the lowest.</p>
+      <h3 style = "color: green;">Grade:</h3>
+     <p>
+        <div class = "GPA">
+
+          </p>
     </div>
 
     <div class="well row">
-      <h2>Problem 2:</h2>
+      <h2 style = "color: purple;">Problem 2:</h2>
       <p>You're taking 6 classes and want to figure out what your GPA would be if you get certain letter grades in each one. Your job is to implement the javascript method "problemTwo()" to find your GPA. If it is 3.0 or above, turn the div with id="box" green. Otherwise, turn it red.</p>
       <p>Each of the letter grades corresponds with the following number of points:</p>
       <table class="table table-striped">
@@ -72,15 +81,16 @@
         <button onclick="problemTwo(); return false;" class="btn btn-default">Find Your GPA</button>
       </form>
       <div id="box" class="gradeBox"></div>
-      <h3>Bonus:</h3>
-      <p>Add a checkbox for each class to indicate whether it is an honors class. If it is an honors class and your grade in the class is an A or a B, add 1.0 points to that grade.</p>
+      <h3>Grade</h3>
+      <p>
+      </p>
     </div>
 
     <div class="well row">
-      <h2>Problem Three</h2>
-      <p>Customize this page with any extra HTML/CSS you would like.</p>
+
     </div>
 
     <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   </body>
 </html>
